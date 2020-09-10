@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
+#!/usr/bin/env bash
 
-
-<pre>
 echo "comming Soon"
-</pre>
-
-</body>
-</html>
