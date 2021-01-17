@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Agora vai</title>
+     <style>
+          body {
+               background-color: rgb(138, 43, 226);
+               color: cornsilk;
+               font: normal 20pt Arial;
+               /*comentario de css*/
+          }
+     </style>
+
+
+</head>
+
+<body>
+     <h1>Vou aprender isso</h1>
+     <!--isso é comentario para html-->
+     <p>\\Horário atual//</p>
+
+
+<script>
+          var nome = window.prompt('Qual seu nome?')//para perguntar o nome
+          window.alert(' Prazer em te conhecer, ' + nome + '!')
+          var idade = window.prompt('qual a sua idade,' + nome + '?')
+          var a = idade >= 18 ? 'velho(a) em' : 'novinho(a) em'
+          window.alert('Ta ' + a + '.')
+          var diversão = window.prompt('Oque você mais curte faser ' + nome + '?')
+          window.alert('Serio, eu também gosto muito de ' + diversão + '!')
+          window.alert('Mesmo sendo uma inteligencia artificial, criada por um bonitão.')
+          window.alert('Meu nome é D.I.O, fui criado por um cara muito bacana.')
+          window.alert('Talvez eu posso te ajudar quando estiver entediado(a)')
+          var fezhj = window.prompt('sabe ser uma IA não é tão legal como parece, agora me diga oque de legal você fez hoje ' + nome +'.')
+          window.prompt('FODASTICO NOSSA QUE FODASTICO PQP :V.')
+          window.alert('legal!')
+          var familia = window.prompt('Bom vamos nos conhecer melhor ' + nome + ' quantas pessoas tem na sua familia? na minha tem mais de 236 codigos.')
+          var b = familia >= 7 ? 'waw tem muita gente em.' : 'um bom número comparado ao meu.'
+          window.alert(b)
+     
+
+
+          
+function startTime()
+{
+var today=new Date();
+var h=today.getHours();
+var m=today.getMinutes();
+var s=today.getSeconds();
+// add a zero in front of numbers<10
+m=checkTime(m);
+s=checkTime(s);
+document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+t=setTimeout('startTime()',500);
+
+}
+
+function checkTime(i)
+{
+if (i<10)
+  {
+  i="0" + i;
+  }
+return i;
+}
+</script>
+
+
+<div id="txt">
+<script type="text/javascript">document.write(startTime())</script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+     </script>
+</body>
+
+</html>
+      
